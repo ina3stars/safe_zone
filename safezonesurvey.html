@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Acme Web Design</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body style="background-color:darkgreen;">
+  <div class="container">
+    <h1 class="brand"style="font-size:300%;color:white;"><span>Safe Zone</span> survey</h1>
+    <div class="wrapper animated fadeInUp">
+      <div class="company-info">
+        <h3 style="font-size:200%;color:white;">please fill in this survey</h3>
+        <ul>
+          <!--li><i class="fa fa-road"></i> 1024 Random Rd</li>
+          <li><i class="fa fa-phone"></i> +33 333 3333333</li>
+          <li><i class="fa fa-envelope"></i> serious@email.com</li>-->
+        </ul>
+      </div>
+      <div class="contact">
+        <!--<h3>Email Us</h3>-->
+        <!--<div class="alert">Your message has been sent</div>-->
+        <form id="contactForm">
+          <p style="font-size:200%;color:white;">
+            <label>How well did you sleep last night ?</label>
+            <input type="text" name="how they slepy" id="how they slept">
+          </p>
+          <p style="font-size:200%;color:white;">
+            <label>How well are you feeling today on a scale from one to ten ?</label>
+            <input type="text" name="how well they are feeling" id="how well they are feeling">
+          </p>
+          <p style="font-size:200%;color:white;">
+            <label>Have you undergone any stress recently ?</label>
+            <input type="text" name="stress" id="stress">
+          </p>
+          <p class="full" style="font-size:250%;">
+            <button type="submit">Submit the survey</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
